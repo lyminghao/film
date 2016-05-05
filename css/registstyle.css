@@ -1,0 +1,31 @@
+/*---
+Author: lyminghao
+----*/
+.main {
+	text-align: center;
+	margin-top:2% ;
+	margin-bottom:3%;
+}
+.head {
+	;
+}
+.sheet {
+	width:36%;
+	margin: auto;
+}
+.ipt {
+	width: 200px;
+}
+.ipt2 {
+	width: 204px;
+	height:22px;
+}
+.col {
+	width: 100px;
+}
+.col2 {
+	width: 500px;
+}
+.row {
+	height: 30px;
+}

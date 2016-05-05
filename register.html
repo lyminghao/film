@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+    <title>注册账号</title>
+    <link href="./image/favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
+	<link href="./image/favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="./image/favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="./css/registstyle.css">
+</head>
+
+<body class="index" style="height: 753px; display: block; background:url(image/bg.jpg)">
+	<div class="main">
+    	<div class="head">
+			<h1>注册账号</h1>
+		</div>
+        <div class="sheet">
+    		<form action="registprocess.php", method="post">
+        		<table border="0">
+  					<tr class="row">
+    					<td class="col">用户名</td>
+    					<td><input type="text" name="username" class="ipt" maxlength="12" required></td>
+                        <td class="col2">用户名为6-12个英文字母或数字</td>
+  					</tr>
+                    <tr class="row">
+    					<td class="col">密&nbsp;码</td>
+    					<td><input type="password" name="password" class="ipt" maxlength="12" required></td>
+  						<td class="col2">密码为6-12个英文字母或数字</td>
+                    </tr>
+                    <tr class="row">
+    					<td class="col">确认密码</td>
+    					<td><input type="password" name="confirmpwd" class="ipt" maxlength="12" required></td>
+  						<td class="col2">请再输入一遍密码</td>
+                    </tr>
+                    <tr class="row">
+    					<td class="col">姓&nbsp;名</td>
+    					<td><input type="text" name="name" class="ipt" maxlength="12" required></td>
+                        <td class="col2">请输入与学生卡相同的姓名</td>
+  					</tr>
+                    <tr class="row">
+    					<td class="col">性&nbsp;别</td>
+    					<td>
+                        	<input type="radio" name="gender" value="1" checked="checked"/> 男
+                            &nbsp;&nbsp;
+							<input type="radio" name="gender" value="2" /> 女
+               			</td>
+                        <td class="col2">请选择性别</td>
+  					</tr>
+                    <tr class="row">
+    					<td class="col">学&nbsp;院</td>
+    					<td>
+                        	<select class="ipt2" name="school"> 
+								<option value="1">教育学部</option>
+								<option value="2">政法学院</option>
+                                <option value="3">经济学院</option>
+                                <option value="4">商学院</option>
+                                <option value="5">文学院</option>
+                                <option value="6">历史文化学院</option>
+                                <option value="7">外国语学院</option>
+                                <option value="8">音乐学院</option>
+                                <option value="9">美术学院</option>
+                                <option value="10">马克思主义学部</option>
+                                <option value="11">数学与统计学院</option>
+                                <option value="12">计算机科学与信息技术学院</option>
+                                <option value="13">信息与软件工程学院</option>
+                                <option value="14">物理学院</option>
+                                <option value="15">化学学院</option>
+                                <option value="16">生命科学学院</option>
+                                <option value="17">地理科学学院</option>
+                                <option value="18">环境学院</option>
+                                <option value="19">体育学院</option>
+                                <option value="20">传媒科学学院</option>
+                                <option value="21">远程与继续教育学院</option>
+                                <option value="22">民族教育学院</option>
+                                <option value="23">留学生教育学院</option>
+							</select>
+               			</td>
+                        <td class="col2">请选择学院</td>
+  					</tr>
+                    <tr class="row">
+    					<td class="col">学&nbsp;号</td>
+    					<td><input type="text" name="number" class="ipt" maxlength="10" required></td>
+                        <td class="col2">请输入与学生卡相同的学号</td>
+  					</tr>
+                    <tr class="row">
+    					<td class="col">电子邮箱</td>
+    					<td><input type="text" name="email" class="ipt" maxlength="20" required></td>
+                        <td class="col2">电子邮箱将用于找回密码</td>
+  					</tr>
+                    <tr class="row">
+    					<td class="col">联系电话</td>
+    					<td><input type="text" name="phone" class="ipt" maxlength="20" required></td>
+                        <td class="col2">请输入手机号码</td>
+  					</tr>
+				</table>
+                <div style="line-height:50px;">
+                	<input type="reset" value="清&nbsp;&nbsp;空">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                	<input type="submit" value="提&nbsp;&nbsp;交">
+                </div>
+                <div style="line-height:200px">
+                	<a href="index.php">返回首页</a>
+                </div>
+        	</form>
+        </div>
+    </div>
+</body>
+</html>

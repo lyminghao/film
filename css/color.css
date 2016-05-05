@@ -1,0 +1,348 @@
+.color_p_btn{background:#2a5caa !important;color:#fff !important;transition:color .3s,background-color .3s,border-color .3s !important;-webkit-transition:color .3s,background-color .3s,border-color .3s !important}
+/*#592f81 #48226c*/
+.color_p_btn:hover{background:#2b4490 !important;color:#fff !important}.color_p{background:#592f81 !important}
+.color_c{color:#592f81 !important}
+.color_br a{border-color:#592f81 !important}
+.color_b_btn{border-color:#592f81 !important;color:#592f81 !important;transition:color .3s,background-color .3s,border-color .3s !important;-webkit-transition:color .3s,background-color .3s,border-color .3s !important;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
+.color_b_btn:hover{border-color:#48226c !important;color:#48226c !important}
+input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus{border-color: #592f81 !important}
+
+#tu-footer .tu-container .pull-left {
+    position: relative;
+    top: 20px;
+    float: left;
+}
+
+#tu-footer .tu-container .pull-right {
+    position: relative;
+    top: 20px;
+    float: right;
+    text-align: right;
+}
+
+#tu-footer .tu-container .pull-right span{
+    color: white;
+}
+.wrapper-footer{
+    background: #f6f2f6;
+}
+
+.home>header{
+}
+/* tsinghuax theme*/
+
+header.global h1.logo a {
+    margin-top: -10px;
+}
+/* 头部下面细长条 的颜色与样式 */
+header.global.slim, header.global{
+    background-color: white;
+    border-bottom: 2px solid #592f81;
+}
+
+#tu-header .tu-container,
+#tu-footer .tu-container {
+    margin: 0 auto;
+}
+
+#tu-header .span2,
+#tu-footer .span2 {
+    display: block;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#tu-header .span10,
+#tu-footer .span10 {
+    display: block;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#tu-header .tu-container:after,
+#tu-footer .tu-container:after {
+    clear: both;
+}
+
+#tu-header .row:after,
+#tu-footer .row:after {
+    clear: both;
+}
+
+/* Background gradient */
+/* 头部长条 的颜色与样式 */
+#tu-header {
+    background: #592f81;
+    box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+    min-height: 30px;
+}
+
+#tu-footer{
+    height: 100px;
+}
+
+/* footer中长条的颜色与样式 */
+#tu-footer,
+#tu-footer .tu-container {
+    background: #592f81;
+    color: #e3dfd5;
+    box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+}
+
+/* Prevent flush left */
+#tu-header .tu-container img {
+    padding: 4px 0 0 10px;
+}
+
+#tu-footer a {
+    color: #e3dfd5;
+}
+
+#tu-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Prevent horizontal scroll bar */
+#tu-footer .tu-container {
+    padding: 3px 7px 20px;
+}
+
+#tu-footer .tu-container .tu-row {
+    margin: 30px 0 0;
+}
+
+/* Align logo and text */
+#tu-footer-logo {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+#tu-footer-text {
+    margin-top: 0;
+}
+
+#tu-footer-text ul {
+    margin: 2px 0 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#tu-footer-text ul li {
+    display: block;
+    list-style: none;
+}
+
+#tu-footer-text ul li a {
+    font: 13px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+
+#tu-footer p.copyright {
+    font: 11px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 30px 0 0;
+    line-height: 1.5em;
+    color: #e3dfd5;
+}
+
+#tu-footer p.copyright span {
+    color: #e3dfd5;
+}
+
+/* Footer two columns */
+#tu-footer .span2 {
+    width: 48%;
+    float: left;
+}
+
+#tu-footer .span10 {
+    width: 48%;
+    float: right;
+}
+
+#tu-footer img {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Clear the floats */
+#tu-footer .clear {
+    clear: both;
+}
+
+/*
+  ========================================================
+  Media queries
+  */
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+    /* Prevent double background gradient */
+    #tu-footer .tu-container {
+        background:none;
+        box-shadow:none;
+    }
+
+    #bottom-text {
+        margin-top:2px;
+    }
+
+    /* Remove left padding */
+    #tu-header .tu-container img {
+        padding:4px 0 0;
+    }
+
+    /* Bootstrap style */
+    #tu-header .tu-container,
+    #tu-footer .tu-container {
+        width:724px;
+    }
+
+    #tu-footer .tu-container .tu-row {
+        margin:30px 0 0 -20px;
+    }
+    /* Footer single column */
+    #tu-footer .span2 {
+        float:left;
+        width:104px;
+        padding-left:8px; /* Prevent flush left */
+    }
+    /* Bootstrap style */
+    #tu-footer .span10 {
+        width:600px;
+        margin-left:20px;
+        margin:0 12px 0 20px;
+        float:left;
+    }
+
+    #tu-footer img {
+        margin:0 auto;
+    }
+
+    #tu-footer ul li.alt {
+        clear:right;
+    }
+    /* Footer two column */
+    #tu-footer ul {
+        width:100%;
+        float:left;
+    }
+
+    #tu-footer ul li {
+        width:auto;
+        margin:0 13px 3px 0;
+        padding:0;
+        float:none;
+        clear:left;
+        display:inline-block;
+    }
+
+    #bottom-logo {
+        margin:-5px 0 10px;
+    }
+
+    #tu-footer .clear {
+        clear:none;
+    }
+
+    p.copyright {
+        text-align:left;
+        padding-left:17%;
+        padding-top:25px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    /* Bootstrap style */
+    #tu-header .tu-container,
+    #tu-footer .tu-container {
+        width:940px;
+    }
+
+    #tu-footer .span2 {
+        width:140px;
+    }
+
+    #tu-footer .span10 {
+        width:780px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Bootstrap style */
+
+    #tu-header .tu-container,
+    #tu-footer .tu-container {
+        width:1180px;
+    }
+
+    #tu-footer .span2 {
+        width:170px;
+    }
+
+    #tu-footer .span10 {
+        width:970px;
+    }
+
+    p.copyright {
+        padding-left:16%;
+    }
+}
+
+.view-howitworks.not-signedin .wrapper-content-header{
+    background-color:#592f81;
+    background-image:linear-gradient(#592f81,#592f81,#48226c);
+}
+.not-signedin .wrapper-header .nav-pitch .action-signup{
+    border:#48226c;
+    background-color: #592f81;
+}
+.not-signedin .wrapper-header .nav-pitch .action-signup:hover, .not-signedin .wrapper-header .nav-pitch .action-signup.active{
+    background-color: #48226c;
+}
+.dashboard .my-courses a{
+    color: #592f81;
+}
+
+.dashboard .my-courses .course .info .enter-course {
+    border: 1px solid #48226c;
+    box-shadow: inset 0 1px 0 0 #592f81;
+    background-color: #592f81;
+    background-image: linear-gradient(#592f81,#48226c);
+}
+.dashboard .my-courses .course .info .enter-course:hover {
+    border: 1px solid #48226c;
+    box-shadow: inset 0 1px 0 0 #592f81;
+    background-color: #48226c;
+    background-image: linear-gradient(#592f81,#48226c);
+}
+
+.dashboard .my-courses .course .info .enter-course:hover:not(:disabled) {
+    border: 1px solid #48226c;
+    box-shadow: inset 0 1px 0 0 #592f81;
+    background-color: #48226c;
+    background-image: linear-gradient(#592f81,#48226c);
+}
+.view-howitworks.not-signedin .content-cta .list-actions .action.action-primary{
+    border:1px solid #48226c;
+    background-color: #592f81;
+}
+.view-howitworks.not-signedin .content-cta .list-actions .action.action-primary:hover, .view-howitworks.not-signedin .content-cta .list-actions .action.action-primary.active{
+    background-color: #48226c;
+}
+.view-howitworks.not-signedin .content-header h1{
+    border-bottom: 1px solid #48226c;
+}
+.view-signup .content-primary form .form-actions .action-primary, .view-signin .content-primary form .form-actions .action-primary{
+    border:1px solid #48226c;
+    background-color: #592f81;
+}
+.view-signup .content-primary form .form-actions .action-primary:hover, .view-signup .content-primary form .form-actions .action-primary.active, .view-signin .content-primary form .form-actions .action-primary:hover, .view-signin .content-primary form .form-actions .action-primary.active{
+    background-color: #48226c;
+}
